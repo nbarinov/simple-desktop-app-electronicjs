@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Конвертер температур</title>
+	<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+	<h1>Конвертер температур</h1>
+	<div class="form-group col-md-3">
+	  	<label for="celcius">По Цельсию:</label>
+	  	<input type="text" class="form-control" id="celcius" onkeyup="celciusToFahrenheit()">
+	</div>
+	<div class="form-group col-md-3">
+		<label for="fahrenheit">По Фаренгейту:</label>
+		<input type="text" class="form-control" id="fahrenheit" onkeyup="fahrenheitToCelcius()">
+	</div>
+	
+	<script src="renderer.js"></script>
+</body>
+
+</html>
